@@ -1,4 +1,4 @@
-require 'pry'
+
 class Book
   attr_accessor :author, :page_count
   attr_reader :title, :genre
@@ -15,7 +15,7 @@ class Book
     GENRES << genre
   end
 
-binding.pry
+
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
